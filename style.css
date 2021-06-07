@@ -1,0 +1,318 @@
+.instagram 
+{
+   margin: auto;
+   margin-top: 20px;
+   display: flex;
+   height: 50px;
+   padding: 0;
+   background: #e4405f;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   overflow: hidden;
+   font-family: "Quicksand", sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   cursor: pointer;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.instagram:hover
+{
+   background: #e4405f;
+   transform: scale(1.1);
+}
+
+.instagram:active 
+{
+   background: #e4405f;
+}
+
+.instagram__text,
+.instagram__icon 
+{
+   display: inline-flex;
+   align-items: center;
+   padding: 0 24px;
+   color: #fff;
+   height: 100%;
+}
+
+.instagram__icon 
+{
+ font-size: 1.5em;
+ background: rgba(0, 0, 0, 0.08);
+}
+
+.telegram
+          {
+           margin: auto;
+    margin-top: 20px;
+ display: flex;
+ height: 50px;
+ padding: 0;
+ background: #0084ff;
+ border: none;
+ outline: none;
+ border-radius: 5px;
+ overflow: hidden;
+ font-family: "Quicksand", sans-serif;
+ font-size: 16px;
+ font-weight: 500;
+ cursor: pointer;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.telegram:hover
+{
+ background: #0084ff;
+ transform: scale(1.1);
+}
+
+.telegram:active 
+{
+ background: #0084ff;
+}
+
+.telegram__text,
+.telegram__icon 
+{
+ display: inline-flex;
+ align-items: center;
+ padding: 0 24px;
+ color: #fff;
+ height: 100%;
+}
+
+.telegram__text
+{
+ width: 72px;
+}
+
+.telegram__icon 
+{
+ font-size: 1.5em;
+ background: rgba(0, 0, 0, 0.08);
+}
+
+.github 
+          {
+           margin: auto;            
+    margin-top: 20px;
+ display: flex;
+ height: 50px;
+ padding: 0;
+ background: #131418;
+ border: none;
+ outline: none;
+ border-radius: 5px;
+ overflow: hidden;
+ font-family: "Quicksand", sans-serif;
+ font-size: 16px;
+ font-weight: 500;
+ cursor: pointer;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.github:hover
+{
+ background: #131418;
+ transform: scale(1.1);
+}
+
+.github:active 
+{
+ background: #131418;
+}
+
+.github__text,
+.github__icon 
+{
+ display: inline-flex;
+ align-items: center;
+ padding: 0 24px;
+ color: #fff;
+ height: 100%;
+}
+
+.github__text
+{
+ width: 72px;
+}
+
+.github__icon 
+{
+ font-size: 1.5em;
+ background: rgba(0, 0, 0, 0.08);
+}
+
+.mail 
+          {
+     margin: auto;
+    margin-top: 20px;
+ display: flex;
+ height: 50px;
+ padding: 0;
+ background: #ff3300;
+ border: none;
+ outline: none;
+ border-radius: 5px;
+ overflow: hidden;
+ font-family: "Quicksand", sans-serif;
+ font-size: 16px;
+ font-weight: 500;
+ cursor: pointer;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.mail:hover
+{
+ background: #ff3300;
+ transform: scale(1.1);
+}
+
+.mail:active 
+{
+ background: #ff3300;
+}
+
+.mail__text,
+.mail__icon 
+{
+ display: inline-flex;
+ align-items: center;
+ padding: 0 24px;
+ color: #fff;
+ height: 100%;
+}
+
+.mail__text
+{
+ width: 72px;
+}
+
+.mail__icon 
+{
+ font-size: 1.5em;
+ background: rgba(0, 0, 0, 0.08);
+}
+
+.linkedin 
+          {
+    margin: auto;
+    margin-top: 20px;
+ display: flex;
+ height: 50px;
+ padding: 0;
+ background: #0077B5;
+ border: none;
+ outline: none;
+ border-radius: 5px;
+ overflow: hidden;
+ font-family: "Quicksand", sans-serif;
+ font-size: 16px;
+ font-weight: 500;
+ cursor: pointer;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.linkedin:hover
+{
+ background: #0077B5;
+ transform: scale(1.1);
+}
+
+.linkedin:active 
+{
+ background: #006e58;
+}
+
+.linkedin__text,
+.linkedin__icon 
+{
+ display: inline-flex;
+ align-items: center;
+ padding: 0 24px;
+ color: #fff;
+ height: 100%;
+}
+
+.linkedin__text
+{
+ width: 72px;
+}
+
+.linkedin__icon 
+{
+ font-size: 1.5em;
+ background: rgba(0, 0, 0, 0.08);
+}
+#caption
+           {
+               color: #ADEFD1FF;
+               font-size: 25px;
+               text-align: center;
+           }
+       
+       .flip-box {
+            background-color: transparent;
+            width: 300px;
+            height: 200px;
+            border: 1px solid rgb(250, 250, 250);
+            perspective: 1000px; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            border-radius: 20%;
+}
+
+       .flip-box-inner {
+           position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+           transition: transform 0.8s;
+           transform-style: preserve-3d;
+}
+
+
+       .flip-box:hover .flip-box-inner {
+            transform: rotateY(180deg);
+}
+
+
+       .flip-box-front, .flip-box-back {
+           position: absolute;
+           width: 100%;
+            height: 100%;
+           -webkit-backface-visibility: hidden; 
+           backface-visibility: hidden;
+           border-radius: 20%;
+}
+
+       .flip-box-front 
+           {
+            background-color: #bbb;
+            color: black;
+            }
+
+       .flip-box-back {
+            background-color: white;
+            color: black;
+            transform: rotateY(180deg);
+       }
+            #image
+           {
+               background-color: white;
+               border-radius: 20%;
+           }
+           #full
+           {
+               box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+             margin: auto;
+
+           }
+
